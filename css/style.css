@@ -96,7 +96,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+  color: #444;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -718,83 +718,389 @@ Parallax
 
 /* Media queries */
 
-@media(min-width:767px) {
+@media (max-width: 320px){
+  #profil{
+    padding-top: 100px !important
+  }
+  #profil h2{
+    font-size: 2em !important
+  }
+  .section-heading h2 {
+    font-size: 27px !important;
+    margin: 10px 0px !important
+  }
+  .imeg{
+    width: 240px !important;
+    height: auto;
+  }
+  .intro {
+    padding: 240px 0 300px 0 !important;
+  }
+  .intro .slogan h2 {
+    line-height: 30px !important;
+    font-size: 28px;
+    margin-bottom: 14px
+  }
+  .intro .slogan h4 {
+    font-size: 11px;
+  }
+  .ch-grid li {
+    width: 105px !important;
+    height: 105px !important;
+    margin: 10px !important;
+  }
+  .ch-grid li .ch-item {
+    background-size: 105px 105px !important;
+  } 
+  .ch-info h3 {
+    margin: 0 !important
+  }
+  .ch-grid li .ch-item .ch-info a h3 {
+    font-size: 10px !important;
+    top: -18px !important;
+    position: relative;
+  }
+  .ch-grid li:nth-child(1) .ch-item .ch-info a h3 {
+    top: -40px !important;
+  }
+  .ch-grid li:nth-child(2) .ch-item .ch-info a h3 {
+    top: -45px !important;
+  }
+  .ch-grid li:nth-child(3) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ch-grid li:nth-child(4) .ch-item .ch-info a h3 {
+    top: -45px !important;
+  }
+  .ch-grid li:nth-child(5) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ch-grid li:nth-child(6) .ch-item .ch-info a h3 {
+    top: -45px !important;
+    margin: 0 5px !important;
+  }
+  .ch-grid li:nth-child(7) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ch-grid li:nth-child(8) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ch-grid li:nth-child(9) .ch-item .ch-info a h3 {
+    top: -45px !important;
+    margin: 0 5px !important;
+  }
+  .ch-grid li:nth-child(10) .ch-item .ch-info a h3 {
+    top: -40px !important;
+  }
+  .ch-grid li:nth-child(11) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ch-grid li:nth-child(12) .ch-item .ch-info a h3 {
+    top: -35px !important;
+  }
+  .ibox-content p img {
+    width: 110px !important;
+  }
+  .slick_demo_2 .ibox-content h2 {
+    font-size: 14px !important;
+    margin-bottom: 25px !important;
+  }
+  .ibox-content.berita {
+    min-height: 360px !important;
+    max-height: 360px !important;
+  }
+  .ibox-content.jalur {
+    min-height: 425px !important;
+    max-height: 425px !important;
+  }
+  .slick_demo_2 .ibox-content {
+    max-height: 220px !important;
+    min-height: 220px !important;
+  }
+  .kecil{
+    font-size: 14px;
+  }
+  .kecil:nth-child(1){
+    margin-bottom: 0
+  }
+  .panel-title{
+    font-size: 14px !important
+  }
+  .res{
+    width: 200px !important
+  }
+  .futer ol{
+    padding-left: 25px !important;
+    text-align: left;
+  }
+  .tengah.besar{
+    width: 80% !important;
+    font-size: 12px !important
+  }
+  .text-muted{
+    font-size: 12px !important
+  }
+  .ibox-content blockquote{
+    font-size: 16px !important
+  }
+  /*.magnify img{
+    width: 275px !important
+  }*/
+}
 
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+@media (min-width: 321px) and (max-width:376px){
+  .imeg{
+    width: 270px !important;
+    height: auto;
+  }
+  #profil{
+    padding-top: 100px !important
+  }
+  #profil h2{
+    font-size: 2em !important;
+  }
+  .section-heading h2 {
+    font-size: 32px !important;
+    margin: 0 0 10px !important;
+  }
+  .intro .slogan h2 {
+    font-size: 30px !important;
+    margin-bottom: 0px
+  }
+  .intro .slogan h4 {
+    font-size: 12px !important;
+  }
+  .ch-grid li {
+    width: 125px !important;
+    height: 125px !important;
+    margin: 10px !important;
+  }
+  .ch-grid li .ch-item {
+    background-size: 125px 125px !important;
+  } 
+  .ch-grid li .ch-item .ch-info a h3{
+    position: relative;
+    font-size: 12px !important;
+  }
+  .ch-grid li:nth-child(1) .ch-item .ch-info a h3 {
+    top: -35px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(2) .ch-item .ch-info a h3 {
+    top: -40px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(3) .ch-item .ch-info a h3 {
+    top: -30px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(4) .ch-item .ch-info a h3 {
+    top: -35px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(5) .ch-item .ch-info a h3 {
+    top: -30px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(6) .ch-item .ch-info a h3 {
+    top: -40px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(7) .ch-item .ch-info a h3 {
+    top: -25px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(8) .ch-item .ch-info a h3 {
+    top: -25px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(9) .ch-item .ch-info a h3 {
+    top: -35px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(10) .ch-item .ch-info a h3 {
+    top: -30px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(11) .ch-item .ch-info a h3 {
+    top: -30px !important;
+    margin: 0 10px !important;
+  }
+  .ch-grid li:nth-child(12) .ch-item .ch-info a h3 {
+    top: -30px !important;
+    margin: 0 10px !important;
+  }
+  .ibox-content p img {
+    width: 150px !important;
+  }
+  .ibox-content.berita {
+    min-height: 360px !important;
+    max-height: 360px !important;
+  }
+  .ibox-content.jalur {
+    min-height: 465px !important;
+    max-height: 465px !important;
+  }
+  .intro {
+    padding: 280px 0 300px 0 !important;
+  }
+  .slick_demo_2 .ibox-content h2 {
+    font-size: 18px !important;
+  }
+  .slick_demo_2 .ibox-content {
+    max-height: 280px !important;
+    min-height: 280px !important;
+  }
+  .kecil{
+    font-size: 16px;
+  }
+  .kecil:nth-child(1){
+    margin-bottom: 0
+  }
+  .res{
+    width: 200px !important
+  }
+  .tengah.besar{
+    width: 80% !important;
+    font-size: 12px !important
+  }
+  .text-muted{
+    font-size: 12px !important
+  }
+  .ibox-content blockquote{
+    font-size: 16px !important
+  }
+  /*.magnify img{
+    width: 345px !important
+  }*/
+}
 
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #000;
-    }
+@media (min-width: 376px) and (max-width: 426px){
+  .imeg{
+    width: 320px;
+    height: auto;
+  }
+  .intro{
+    padding: 260px 0 300px 0 !important;
+  }
+  .intro .slogan h2{
+    font-size: 36px !important;
+    margin-bottom: 0px !important
+  }
+  .intro .slogan h4{
+    font-size: 14px !important
+  }
+  .section-heading h2 {
+    font-size: 32px;
+  }
+  #profil{
+    padding-top: 100px !important;
+    padding-bottom: 80px !important;
+  }
+  .ch-info h3{
+    font-size: 14px !important
+  }
+  .ch-grid li{
+    width: 160px !important;
+    height: 160px !important;
+    margin: 10px !important;
+  }
+  .ch-grid li .ch-item {
+    background-size: 160px 160px !important
+  }
+  .ch-grid li .ch-item .ch-info a h3{
+    position: relative;
+    font-size: 12px !important;
+  }
+  .ibox-content.jalur {
+    max-height: 500px !important;
+    min-height: 500px !important; 
+  }
+  .ch-grid li:nth-child(1) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(2) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(3) .ch-item .ch-info a h3 {
+    top: -10px !important;
+  }
+  .ch-grid li:nth-child(4) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(5) .ch-item .ch-info a h3 {
+    top: -10px !important;
+  }
+  .ch-grid li:nth-child(6) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(7) .ch-item .ch-info a h3 {
+    top: -5px !important;
+  }
+  .ch-grid li:nth-child(8) .ch-item .ch-info a h3 {
+    top: -5px !important;
+  }
+  .ch-grid li:nth-child(9) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(10) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(11) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ch-grid li:nth-child(12) .ch-item .ch-info a h3 {
+    top: -20px !important;
+  }
+  .ibox-content p img {
+    width: 185px !important;
+  }
+  .kecil{
+    font-size: 18px;
+  }
+  .kecil:nth-child(1){
+    margin-bottom: 0
+  }
+  .res{
+    width: 200px !important
+  }
+  .tengah.besar{
+    width: 80% !important;
+    font-size: 12px !important
+  }
+  .text-muted{
+    font-size: 12px !important
+  }
+  .ibox-content blockquote{
+    font-size: 16px !important
+  }
+}
 
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
-	
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .brand-heading {
-        font-size: 100px;
-    }
-
-    .intro-text {
-        font-size: 25px;
-    }
-
-    .intro{
-    padding: 250px 0 300px 0 !important
+@media (min-width: 426px) and (max-width:769px) {
+  .navbar-custom .nav.navbar-nav {
+    background-color: rgba(255,255,255,.4);
+  }
+  
+  .navbar.navbar-custom.navbar-fixed-top {
+    margin-bottom: 30px;
+  }
+  
+  .tp-banner-container {
+    padding-top:40px;
   }
 
-}
-@media (max-width:768px) {
-	
-	.team.boxed-grey {
-		margin-bottom: 30px;
-	}
-	
-	.boxed-grey {
-		margin-bottom: 30px;
-	}
-	
-}
-
-@media (max-width:480px) {
-
-	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
-	}
-	
-	.navbar.navbar-custom.navbar-fixed-top {
-		margin-bottom: 30px;
-	}
-	
-	.tp-banner-container {
-		padding-top:40px;
-	}
-
-	.page-scroll a.btn-circle {
-		width: 40px;
-		height: 40px;
-		margin-top: 10px;
-		padding: 7px 0;
-		border: 2px solid #fff;
-		border-radius: 50%;
-		font-size: 20px;
-	}
+  .page-scroll a.btn-circle {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 7px 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
 
   .imeg{
-    width: 350px;
+    width: 280px;
     height: auto;
   }
 
@@ -817,6 +1123,15 @@ Parallax
 
   .ch-item{
     background-size: 150px 150px !important;
+    box-shadow: 
+      inset 0 0 0 7px rgba(255,255,255,0.6), 
+      0 1px 2px rgba(0,0,0,0.1) !important;
+  }
+
+  .ch-item:hover {
+    box-shadow: 
+      inset 0 0 0 1px rgba(255,255,255,0.1),
+      0 1px 2px rgba(0,0,0,0.1) !important;
   }
 
   .ch-info h3 {
@@ -832,10 +1147,156 @@ Parallax
   }
 
   .modal-content{
-    width: 100px !important
-    height: 500px !important
+    width: 375px !important;
+    height: 900px !important;
   }
+
+  .ibox-content .col-xs-12:nth-child(2){
+    padding-top: 20px;
+  }
+
+  .ibox-content .col-xs-12:nth-child(2) h2{
+    text-align:center;
+  }
+
+  .ibox-footer{
+    margin-top: 20px;
+  }
+
+  .jalur{
+    margin-top: 30px;
+  }
+
+  .link ul{
+    font-size: 14px;
+    padding-left: 15px;
+  }
+
+  .kecil{
+    font-size: 18px;
+    margin-bottom: 0px ;
+  }
+
+  .tengah.besar{
+    width: 80% !important;
+  }
+
+  .ibox-content blockquote{
+    font-size: 14px !important
+  }
+  .ibox-content p img{
+    width:140px !important;
+  }
+  .ibox-content.mitra {
+    min-height: 310px;
+    max-height: 310px
+  }
+  .jalur img{
+    width: 100% !important;
+  }
+  .jalur img:last-child{
+    margin-top: 5px
+  }
+  .jalur ul{
+    padding-left: 15px
+  }
+
+  .ch-grid li:nth-child(1) .ch-item .ch-info a h3{
+    top: 10px;
+    position: relative;
+  }
+  .ch-grid li:nth-child(3) .ch-item .ch-info a h3{
+    top: 10px !important;
+  }
+  .ch-grid li:nth-child(4) .ch-item .ch-info a h3{
+    top: 10px !important;
+    position: relative;
+  }
+  .ch-grid li:nth-child(7) .ch-item .ch-info a h3{
+    top: 15px !important;
+  }
+  .ch-grid li:nth-child(8) .ch-item .ch-info a h3{
+    top: 15px !important;
+  }
+  .ch-grid li:nth-child(9) .ch-item .ch-info a h3{
+    top: 10px !important;
+    position: relative;
+  }
+  .ch-grid li:nth-child(10) .ch-item .ch-info a h3{
+    top: 10px !important;
+  }
+  .ch-grid li:nth-child(11) .ch-item .ch-info a h3{
+    top: 10px !important;
+  }
+  .ch-grid li:nth-child(12) .ch-item .ch-info a h3{
+    top: 10px !important;
+  }
+  .ch-grid li:nth-child(13) .ch-item .ch-info a h3{
+    top: 15px !important;
+  }
+  .ch-grid li:nth-child(14) .ch-item .ch-info a h3{
+    top: 15px !important;
+  }
+  .ibox-content.jalur {
+    max-height: 465px !important;
+    min-height: 465px !important;
+  }
+  .kecil{
+    font-size: 25px;
+  }
+  .kecil:nth-child(1){
+    margin-bottom: 0
+  }
+  .res{
+    width: 365px !important;
+    font-size: 25px !important;
+  }
+  .panel-body{
+    margin-top: 20px !important
+  }
+}
+
+@media(min-width:768px) {
+
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
   
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro-text {
+        font-size: 25px;
+    }
+
+    .intro{
+    padding: 250px 0 300px 0 !important
+  }
+}
+
+.tengah.besar{
+    width: 50%
 }
 
 .top-nav-collapse {
@@ -860,51 +1321,77 @@ Parallax
   transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 { 
-  background-image: url(../img/wisata/welirang.jpg);
+.ch-grid li:nth-child(1) .ch-item { 
+  background-image: url(../img/owa-cangar/Gerbang-Cangar.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-2 { 
-  background-image: url(../img/wisata/tretes.jpeg);
+.ch-grid li:nth-child(2) .ch-item { 
+  background-image: url(../img/owa-pacet/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-3 { 
-  background-image: url(../img/wisata/watuondo.jpg);
+.ch-grid li:nth-child(3) .ch-item { 
+  background-image: url(../img/owa-tretes/Air-terjun-Tretes-Jombang-640x381.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-4 { 
-  background-image: url(../img/wisata/cangar.jpeg);
+.ch-grid li:nth-child(4) .ch-item { 
+  background-image: url(../img/owa-watu-lumpang/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-5 { 
-  background-image: url(../img/wisata/begaganlimo.jpg);
+.ch-grid li:nth-child(5) .ch-item { 
+  background-image: url(../img/owa-watu-ondo/maxresdefault.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-6 { 
-  background-image: url(../img/wisata/watulumpang.jpeg);
+.ch-grid li:nth-child(6) .ch-item { 
+  background-image: url(../img/owa-petung-sewu/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-7 { 
-  background-image: url(../img/wisata/petungsewu.jpeg);
+.ch-grid li:nth-child(7) .ch-item { 
+  background-image: url(../img/owa-candi-pari/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-8 { 
-  background-image: url(../img/wisata/claket.jpeg);
+.ch-grid li:nth-child(8) .ch-item { 
+  background-image: url(../img/owa-coban-sriti/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
-.ch-img-9 { 
-  background-image: url(../img/wisata/watujengger.jpeg);
+.ch-grid li:nth-child(9) .ch-item { 
+  background-image: url(../img/owa-putuk-puyang/1.jpg);
   background-size: 250px 250px;
   background-repeat: no-repeat;
 }
+.ch-grid li:nth-child(10) .ch-item { 
+  background-image: url(../img/owa-slimpring/P_20160724_1248.jpg);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+.ch-grid li:nth-child(11) .ch-item { 
+  background-image: url(../img/owa-supit-urang/1.jpg);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+.ch-grid li:nth-child(12) .ch-item { 
+  background-image: url(../img/owa-widodari/5.jpg);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+.ch-grid li:nth-child(13) .ch-item { 
+  background-image: url(../img/owa-bon3/1.jpg);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+.ch-grid li:nth-child(14) .ch-item { 
+  background-image: url(../img/owa-bon15/2.jpg);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+
 
 .ch-info {
   position: absolute;
@@ -1099,7 +1586,7 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 800px){
+/*@media (max-width: 800px){
   .imeg{
     width:280px;
     height: auto;
@@ -1119,13 +1606,25 @@ footer{
     padding: 60px 0px 0px 0px;
     margin: 0 10px
   }
-  .ch-grid li:nth-child(4) h3{
-    padding-top: 80px
-  }
   .widget-contact{
     margin-top: 40px
   }
-}
+  .ibox-content p img {
+    width: 150px !important;
+  }
+  .ibox-content.kabar {
+    max-height: 360px !important;
+    min-height: 360px !important;
+  }
+  .ibox-content.jalur {
+    max-height: 480px !important;
+    min-height: 480px !important;
+  }
+  .slick_demo_2 .ibox-content {
+    max-height: 310px !important;
+    min-height: 310px !important;
+  }
+}*/
 
 .company-social .social-youtube a {
     background: red;
@@ -1227,7 +1726,6 @@ footer{
     font-size: 90%;
     background: #ffffff;
     padding: 10px 15px;
-    margin-top: 20px;
 }
 .slick-prev:before, .slick-next:before {
     color: #1ab394 !important;
@@ -1236,7 +1734,7 @@ footer{
   height: 300px
 }
 .modal-lg{
-  width: 1200px
+  width: 1200px;
 }
 .modal-content .ibox{
   margin-bottom: 0px
@@ -1254,4 +1752,573 @@ footer{
   margin-top: 5px;
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #676a6c;
+}
+
+.wrapper-content {
+    padding: 20px 10px 40px;
+}
+.p-md {
+    padding: 25px;
+}
+.float-e-margins .btn {
+    margin-bottom: 5px;
+}
+#vertical-timeline {
+    position: relative;
+    padding: 0;
+    margin-top: 8em;
+    margin-bottom: 2em;
+}
+
+.vertical-container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#vertical-timeline.light-timeline:before {
+    background: #e7eaec;
+}
+
+#vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #e7eaec;
+}
+.vertical-timeline-block:first-child {
+    margin-top: 0;
+}
+
+.vertical-timeline-block {
+    position: relative;
+    margin: 2em 0;
+}
+.vertical-timeline-block:last-child {
+    margin-bottom: 0;
+}
+.vertical-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.navy-bg {
+    background-color: #1ab394;
+    color: #ffffff;
+}
+
+.vertical-timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 16px;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+.vertical-timeline-icon i {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -11px;
+    margin-top: -9px;
+}
+.vertical-timeline-content {
+    position: relative;
+    margin-left: 60px;
+    background: white;
+    border-radius: 0.25em;
+    padding: 1em;
+}
+.vertical-timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid white;
+}
+.vertical-timeline-content h2 {
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+    text-transform: none;
+}
+.vertical-timeline-content p {
+    margin: 1em 0;
+    line-height: 1.6;
+    font-size: 14px;  
+}
+.vertical-timeline-content .vertical-date {
+    float: left;
+    font-weight: 500;
+}
+.vertical-date small {
+    color: #1ab394;
+    font-weight: 400;
+}
+.vertical-timeline-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.vertical-timeline-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.vertical-timeline-content .btn {
+    float: right;
+}
+
+.ibox-content p img{
+  width:220px;
+}
+
+.tengah{
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*.magnify > .magnify-lens {
+  width: 100px !important;
+  height: 100px !important;
+}*/
+
+.bg{
+    margin-top: 85px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #e7eaec;
+}
+
+.jalur .small{
+  text-align: justify;
+}
+
+.jalur h4{
+  margin-bottom: 5px
+}
+
+.link{
+  background: #1ab394; 
+  color: white;
+  padding: 25px 15px 10px 25px;
+}
+
+.link h4{
+  margin-bottom: 10px; 
+  color: white;
+}
+
+.link ul li{
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.link ul li a{
+  color: white 
+}
+
+.link ul li a:hover{
+  color: #ffc107
+}
+
+.jalur img{
+  width: 100%;
+  margin-top: 5px
+}
+
+.youtube-container { display: block; margin: 20px auto; width: 100%; max-width: 600px; border:1px solid #000; }
+.youtube-player { display: block; width: 100%; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
+img.youtube-thumb { bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: auto }
+div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("../img/TxzC70f.png") no-repeat; }
+#youtube-iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+
+.bgimg-1 {
+    background-image: url(../img/owa-cangar/Gerbang-Cangar.jpg);
+    min-height: 100%;
+}
+.bgimg-2 {
+    background-image: url(../img/owa-cangar/Pemandian-Air-Panas-Cangar-Cover.jpg);
+    min-height: 50%;
+}
+.bgimg-3 {
+    background-image: url(../img/owa-cangar/057755700_1409512921-elang_jawa.jpg);
+    min-height: 50%;
+}
+.bgimg-4 {
+    background-image: url(../img/owa-cangar/LT0-1021x630.jpg);
+    min-height: 50%;
+}
+.bgimg-5 {
+    background-image: url(../img/owa-cangar/203_3167721632842.jpg);
+    min-height: 50%;
+}
+.bgimg-6 {
+    background-image: url(../img/owa-cangar/2176569_67711c0f-5c76-4c08-9a15-49f6b82f451c.jpg);
+    min-height: 70%;
+}
+.bgimg-7 {
+    background-image: url(../img/owa-cangar/atas_cangar.jpeg);
+    min-height: 100%;
+}
+.bgimg-8 {
+    background-image: url(../img/owa-slimpring/P_20160724_1248.jpg);
+    min-height: 100%;
+}
+.bgimg-9 {
+    background-image: url(../img/owa-slimpring/1.jpg);
+    min-height: 100%;
+}
+.bgimg-10 {
+    background-image: url(../img/owa-slimpring/2.jpg);
+    min-height: 100%;
+}
+.bgimg-11 {
+    background-image: url(../img/owa-slimpring/3.jpg);
+    min-height: 100%;
+}
+.bgimg-12 {
+    background-image: url(../img/owa-slimpring/4.jpg);
+    min-height: 80%;
+}
+.bgimg-13 {
+    background-image: url(../img/owa-tretes/Air-terjun-Tretes-Jombang-640x381.jpg);
+    min-height: 100%;
+}
+.bgimg-14 {
+    background-image: url(../img/owa-tretes/1.jpg);
+    min-height: 100%;
+}
+.bgimg-15 {
+    background-image: url(../img/owa-tretes/2.jpg);
+    min-height: 100%;
+}
+.bgimg-16 {
+    background-image: url(../img/owa-tretes/3.jpg);
+    min-height: 100%;
+}
+.bgimg-17 {
+    background-image: url(../img/owa-tretes/5.png);
+    min-height: 60%;
+}
+.bgimg-18 {
+    background-image: url(../img/owa-tretes/4.jpg);
+    min-height: 80%;
+}
+.bgimg-19 {
+    background-image: url(../img/owa-tretes/6.jpg);
+    min-height: 100%;
+}
+.bgimg-20 {
+    background-image: url(../img/owa-watu-ondo/Lima-Air-Terjun-di-Mojokerto-Lokasi-Basah-Bahasan-yang-Oke-2.jpg);
+    min-height: 100%;
+}
+.bgimg-21 {
+    background-image: url(../img/owa-watu-ondo/1.jpg);
+    min-height: 60%;
+}
+.bgimg-22 {
+    background-image: url(../img/owa-watu-ondo/2.jpg);
+    min-height: 60%;
+}
+.bgimg-23 {
+    background-image: url(../img/owa-watu-ondo/3.jpg);
+    min-height: 60%;
+}
+.bgimg-24 {
+    background-image: url(../img/owa-watu-ondo/4.jpg);
+    min-height: 100%;
+}
+.bgimg-25 {
+    background-image: url(../img/owa-widodari/4.jpg);
+    min-height: 100%;
+}
+.bgimg-26 {
+    background-image: url(../img/owa-widodari/3.jpg);
+    min-height: 100%;
+}
+.bgimg-27 {
+    background-image: url(../img/owa-widodari/5.jpg);
+    min-height: 100%;
+}
+.bgimg-28 {
+    background-image: url(../img/owa-bon3/1.jpg);
+    min-height: 100%;
+}
+.bgimg-29 {
+    background-image: url(../img/owa-bon3/2.jpg);
+    min-height: 60%;
+}
+.bgimg-30 {
+    background-image: url(../img/owa-bon3/Fauna-Monyet-Ekor-Panjang-Si-Usil-yang-Dekat-dengan-Manusia.jpg);
+    min-height: 60%;
+}
+.bgimg-31 {
+    background-image: url(../img/owa-bon3/3.jpg);
+    min-height: 100%;
+}
+.bgimg-32 {
+    background-image: url(../img/owa-bon15/1.jpg);
+    min-height: 100%;
+}
+.bgimg-33 {
+    background-image: url(../img/owa-bon15/2.jpg);
+    min-height: 100%;
+}
+.bgimg-34 {
+    background-image: url(../img/owa-bon15/3.jpg);
+    min-height: 60%;
+}
+.bgimg-35 {
+    background-image: url(../img/owa-bon15/4.jpg);
+    min-height: 60%;
+}
+.bgimg-36 {
+    background-image: url(../img/owa-bon15/5.jpg);
+    min-height: 100%;
+}
+.bgimg-37 {
+    background-image: url(../img/owa-pacet/1.jpg);
+    min-height: 100%;
+}
+.bgimg-38 {
+    background-image: url(../img/owa-pacet/2.jpg);
+    min-height: 100%;
+}
+.bgimg-39 {
+    background-image: url(../img/owa-pacet/ada-25-pasang-bakal-disulap-menjadi-wisata-edukasi_m_116876.jpg);
+    min-height: 100%;
+}
+.bgimg-40 {
+    background-image: url(../img/owa-pacet/3.jpg);
+    min-height: 100%;
+}
+.bgimg-41 {
+    background-image: url(../img/owa-pacet/4.jpg);
+    min-height: 100%;
+}
+.bgimg-42 {
+    background-image: url(../img/owa-candi-pari/1.jpg);
+    min-height: 100%;
+}
+.bgimg-43 {
+    background-image: url(../img/owa-candi-pari/5.jpg);
+    min-height: 60%;
+}
+.bgimg-44 {
+    background-image: url(../img/owa-candi-pari/4.jpg);
+    min-height: 100%;
+}
+.bgimg-45 {
+    background-image: url(../img/owa-candi-pari/2.jpg);
+    min-height: 60%;
+}
+.bgimg-46 {
+    background-image: url(../img/owa-candi-pari/3.jpg);
+    min-height: 60%;
+}
+.bgimg-47 {
+    background-image: url(../img/owa-coban-sriti/1.jpg);
+    min-height: 100%;
+}
+.bgimg-48 {
+    background-image: url(../img/owa-coban-sriti/2.jpg);
+    min-height: 100%;
+}
+.bgimg-49 {
+    background-image: url(../img/owa-coban-sriti/3.jpg);
+    min-height: 100%;
+}
+.bgimg-50 {
+    background-image: url(../img/owa-coban-sriti/1510715527225826.jpg);
+    min-height: 100%;
+}
+.bgimg-51 {
+    background-image: url(../img/owa-putuk-puyang/1.jpg);
+    min-height: 100%;
+}
+.bgimg-52 {
+    background-image: url(../img/owa-putuk-puyang/2.jpg);
+    min-height: 100%;
+}
+.bgimg-53 {
+    background-image: url(../img/owa-putuk-puyang/3.jpg);
+    min-height: 100%;
+}
+.bgimg-54 {
+    background-image: url(../img/owa-petung-sewu/1.jpg);
+    min-height: 100%;
+}
+.bgimg-55 {
+    background-image: url(../img/owa-petung-sewu/2.jpg);
+    min-height: 100%;
+}
+.bgimg-56 {
+    background-image: url(../img/owa-petung-sewu/3.jpg);
+    min-height: 100%;
+}
+.bgimg-57 {
+    background-image: url(../img/owa-petung-sewu/4.jpg);
+    min-height: 100%;
+}
+.bgimg-58 {
+    background-image: url(../img/owa-supit-urang/1.jpg);
+    min-height: 100%;
+}
+.bgimg-59 {
+    background-image: url(../img/owa-supit-urang/2.jpg);
+    min-height: 100%;
+}
+.bgimg-60 {
+    background-image: url(../img/owa-supit-urang/3.jpg);
+    min-height: 100%;
+}
+.bgimg-61 {
+    background-image: url(../img/owa-supit-urang/4.jpg);
+    min-height: 100%;
+}
+.bgimg-62 {
+    background-image: url(../img/owa-supit-urang/5.jpg);
+    min-height: 100%;
+}
+.bgimg-63 {
+    background-image: url(../img/owa-supit-urang/6.jpg);
+    min-height: 100%;
+}
+.bgimg-64 {
+    background-image: url(../img/owa-watu-lumpang/1.jpg);
+    min-height: 100%;
+}
+.bgimg-65 {
+    background-image: url(../img/owa-watu-lumpang/2.jpg);
+    min-height: 100%;
+}
+.bgimg-66 {
+    background-image: url(../img/owa-watu-lumpang/3.jpg);
+    min-height: 100%;
+}
+.bgimg-67 {
+    background-image: url(../img/owa-watu-lumpang/4.jpg);
+    min-height: 100%;
+}
+.bgimg-68 {
+    background-image: url(../img/owa-watu-lumpang/5.jpg);
+    min-height: 80%;
+}
+.bgimg-69 {
+    background-image: url(../img/owa-watu-lumpang/6.jpg);
+    min-height: 80%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, 
+.bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14, .bgimg-15, .bgimg-16, .bgimg-17, .bgimg-18, .bgimg-19, .bgimg-20, 
+.bgimg-21, .bgimg-22, .bgimg-23, .bgimg-24, .bgimg-25, .bgimg-26, .bgimg-27, .bgimg-28, .bgimg-29, .bgimg-30,
+.bgimg-31, .bgimg-32, .bgimg-33, .bgimg-34, .bgimg-35, .bgimg-36, .bgimg-37, .bgimg-38, .bgimg-39, .bgimg-40,
+.bgimg-41, .bgimg-42, .bgimg-43, .bgimg-44, .bgimg-45, .bgimg-46, .bgimg-47, .bgimg-48, .bgimg-49, .bgimg-50,
+.bgimg-51, .bgimg-52, .bgimg-53, .bgimg-54, .bgimg-55, .bgimg-56, .bgimg-57, .bgimg-58, .bgimg-59, .bgimg-60,
+.bgimg-61, .bgimg-62, .bgimg-63, .bgimg-64, .bgimg-65, .bgimg-66, .bgimg-67, .bgimg-68, .bgimg-69, .bgimg-70 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kontener{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  background-color:rgba(0,0,0,0.4);;
+  padding: 5px
+}
+.futer{
+  background: #1ab394; 
+  padding: 15px
+}
+.futer h4{
+  text-align: center; color: white; margin-bottom: 20px
+}
+.futer ol li{
+  padding-bottom: 5px !important
+}
+.futer ol li, .futer ol li a{
+  color: white; text-transform: capitalize; font-size: 16px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+  .caption span.border {
+    font-size: 14px !important;
+  }  
+  .narasi{
+    padding: 50px 20px !important
+  }
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-weight: 400
+}
+
+.caption span.border.inverse {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.narasi{
+  color: #777;
+  background-color: white;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.narasi h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center
+}
+
+.narasi.bg-black{
+    color: #ddd;
+    background-color: #282E34;
+}
+
+#ifrm{
+    display: none !important;
 }

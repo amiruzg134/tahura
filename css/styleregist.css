@@ -3530,7 +3530,8 @@ body.body-small .footer.fixed {
 /* PANELS */
 .page-heading {
   border-top: 0;
-  padding: 0 10px 20px 10px;
+  /*padding: 0 10px 20px 10px;*/
+  padding: 0 10px 20px 185px;
 }
 .panel-heading h1,
 .panel-heading h2 {
@@ -3751,7 +3752,7 @@ code {
   min-height: 48px;
 }
 .ibox-content {
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   color: inherit;
   padding: 15px 20px 20px 20px;
   border-color: #e7eaec;
@@ -7045,6 +7046,25 @@ body.landing-page {
   .landing-page .featurette-heading {
     font-size: 50px;
   }
+  #form-t-0 .tooltip{
+    left: 58px !important
+  }
+
+  #form-t-1 .tooltip{
+    left: 234px !important
+  }
+
+  #form-t-2 .tooltip{
+    left: 415px !important
+  }
+
+  #form-t-3 .tooltip{
+    left: 598px !important
+  }
+
+  #form-t-4 .tooltip .tooltip-arrow{
+    left: 81% !important
+  }
 }
 @media (max-width: 992px) {
   .landing-page .carousel-image {
@@ -8117,7 +8137,8 @@ body.md-skin {
 @media (min-width: 768px) {
   #page-wrapper {
     position: inherit;
-    margin: 40px 180px 0 180px;
+    /*margin: 40px 180px 0 180px;*/
+    margin: 40px 0px 0px 0px;
     /*min-height: 1200px;*/
   }
   .navbar-static-side {
@@ -8150,7 +8171,7 @@ body.md-skin {
     display: none;
   }
   .navbar-form-custom {
-    display: none;
+    /*display: none;*/
   }
   .navbar-header {
     display: inline;
@@ -8243,7 +8264,45 @@ body.md-skin {
     /*padding-left: 10px !important*/
   }
   .left{
-    padding-left: 200px !important
+    padding-left: 200px !important;
+  }
+  .steps li:nth-child(1) i{
+    padding-left: -25px;
+  }
+  .steps li:nth-child(2) i{
+    padding-left: 25px;
+  }
+  .steps li:nth-child(3) i{
+    padding-left: 68px;
+  }
+  .steps li:nth-child(4) i{
+    padding-left: 35px;
+  }
+  .steps li:nth-child(5) i{
+    padding-left: 70px;
+  }
+  .page-heading {
+    border-top: 0;
+    padding: 0 10px 20px 10px;
+  }
+  .kotak{
+    padding: 0 !important;
+  }
+  .scroll{
+    height: 550px !important; 
+    overflow: auto; 
+  }
+  .ibox{
+    margin-bottom: 20px
+  }
+  .tabel tr td:nth-child(1){
+    padding-top: 0 !important;
+  }
+  .wizard > .actions > ul > li {
+    margin: 0px 5px !important;
+  }
+  .wizard > .actions a{
+    font-size: 13px
   }
 }
 
@@ -8261,5 +8320,59 @@ body.md-skin {
 
 .wizard > .content > .body {
   width: 100%
+}
+
+.steps li:nth-child(1) i{
+  padding-left: 35px
+}
+.steps li:nth-child(2) i{
+  padding-left: 10px
+}
+.steps li:nth-child(3) i{
+  padding-left: 55px
+}
+.steps li:nth-child(4) i{
+  padding-left: 20px
+}
+.steps li:nth-child(5) i{
+  padding-left: 60px
+}
+
+.kotak{
+  padding: 0 200px;
+}
+
+.tengah{
+  border-radius: unset;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px
+}
+.tengah a{
+  color: white
+}
+
+.wells{
+  border:none;
+  border-radius: 
+  unset;padding: 10px 20px;
+  margin-bottom: 2px !important
+}
+
+.ibox-content ol{
+  padding-left: 15px
+}
+
+.ibox-content ol li{
+  padding: 10px 0 0 0;
+}
+
+.scroll{
+    height: 480px; overflow: auto; margin-top: 20px
+}
+
+.tabel tr td:nth-child(2){
+  padding: 3px 0 0 5px;
 }
 
