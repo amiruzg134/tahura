@@ -46,7 +46,7 @@
 		        <li class="active"><a href="#intro">Home</a></li>
 		        <li><a href="#profil">Profil</a></li>
 				<li><a href="#contact">Kontak</a></li>
-				<li><a href="tahuraradensoerjo.or.id/sipenerang" target="_blank">Registrasi Pendakian</a></li>
+				<li><a href="/sipenerang" target="_blank">Registrasi Pendakian</a></li>
 		        <!-- <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 		          <ul class="dropdown-menu">
