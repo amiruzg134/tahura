@@ -834,7 +834,7 @@ Parallax
     text-align: left;
   }
   .tengah.besar{
-    width: 80% !important;
+    width: 100% !important;
     font-size: 12px !important
   }
   .text-muted{
@@ -961,7 +961,7 @@ Parallax
     width: 200px !important
   }
   .tengah.besar{
-    width: 80% !important;
+    width: 100% !important;
     font-size: 12px !important
   }
   .text-muted{
@@ -1065,7 +1065,7 @@ Parallax
     width: 200px !important
   }
   .tengah.besar{
-    width: 80% !important;
+    width: 100% !important;
     font-size: 12px !important
   }
   .text-muted{
@@ -1178,7 +1178,7 @@ Parallax
   }
 
   .tengah.besar{
-    width: 80% !important;
+    width: 100% !important;
   }
 
   .ibox-content blockquote{
@@ -1296,7 +1296,7 @@ Parallax
 }
 
 .tengah.besar{
-    width: 50%
+    width: 60%
 }
 
 .top-nav-collapse {

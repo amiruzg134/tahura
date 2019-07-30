@@ -342,6 +342,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="ibox">
+                        <div class="ibox-content product-box berita">
+                            <div class="product-imitation">
+                                [ INFO ]
+                            </div>
+                            <div class="product-desc" style="text-align: left">
+                                <span class="product-price">
+                                    29/07/2019
+                                </span>
+                                <a href="berita/berita-4.html" class="product-name">Kebakaran di Lereng Gunung Arjuno</a>
+                                <div class="small m-t-xs">
+                                   Kebakaran hutan kurang lebih seluas 40 hektare yang terjadi ...
+                                </div>
+                                <div class="m-t text-righ">
+
+                                    <a href="berita/berita-4.html" class="btn btn-xs btn-outline btn-primary">Selengkapnya <i class="fa fa-long-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
 		<div class="container">
